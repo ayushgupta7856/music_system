@@ -41,7 +41,6 @@ function animate(key) {
         animate_keypress(key);
         break;
       case "M":
-        animate_keypress(key);
         var snare = new Audio('sounds/snare.mp3');
         snare.play();
         animate_keypress(key);
