@@ -11,39 +11,40 @@ function animate(key) {
     key=key.toUpperCase();
     switch (key) {
       case "A":
-        animate_keypress(key);
         var tom2 = new Audio("sounds/tom-1.mp3");
         tom2.play();
+        animate_keypress(key);
         break;
       case "W":
-        animate_keypress(key);
         var tom1 = new Audio("sounds/tom-2.mp3");
         tom1.play();
+        animate_keypress(key);
         break;
       case "S":
-        animate_keypress(key);
         var tom3 = new Audio('sounds/tom-3.mp3');
         tom3.play();
+        animate_keypress(key);
         break;
       case "D":
-        animate_keypress(key);
         var tom4 = new Audio('sounds/tom-4.mp3');
         tom4.play();
+        animate_keypress(key);
         break;
       case "N":
-        animate_keypress(key);
         var crash = new Audio('sounds/crash.mp3');
         crash.play();
+        animate_keypress(key);
         break;
       case "J":
-        animate_keypress(key);
         var kick = new Audio('sounds/kick-bass.mp3');
         kick.play();
+        animate_keypress(key);
         break;
       case "M":
         animate_keypress(key);
         var snare = new Audio('sounds/snare.mp3');
         snare.play();
+        animate_keypress(key);
         break;
     }
   }
